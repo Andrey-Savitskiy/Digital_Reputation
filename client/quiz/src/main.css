@@ -1,0 +1,21 @@
+:root {
+    --index: calc(1vw + 1vh);
+    --color-header: #f4efec;
+    --color-text: #cdc6c3;
+    --color-blue: #2a3190;
+    --color-blue-active: #000654;
+    --transition: 0.2s;
+}
+
+body {
+    background-color: #1e201f;
+    color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
